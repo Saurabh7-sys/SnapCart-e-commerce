@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <span className='cart-icons'>
           <FaUser id='user' size={"25px"} />
-          <FaShoppingCart id='cart' size={"25px"} />
+          <Link to={'/cart'}><FaShoppingCart id='cart' size={"25px"} /></Link>
         </span>
       </nav>
 

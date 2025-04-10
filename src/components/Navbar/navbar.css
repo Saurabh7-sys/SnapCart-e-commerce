@@ -1,4 +1,7 @@
 .desktop-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,20 +21,20 @@ nav ul {
   padding: 0 250px 0 250px;
 }
 
-li a {
+.desktop-nav li a {
   color: whitesmoke;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-li {
+.desktop-ul li {
   transition: all 0.3s ease;
 }
-li:hover {
+.desktop-ul li:hover {
   transform: scale(1.05);
   color: var(--tertiary-color);
 }
-li a:hover {
+.desktop-ul li a:hover {
   color: var(--tertiary-color);
 }
 span {
@@ -40,11 +43,14 @@ span {
   align-items: center;
   gap: 4em;
 }
-img {
+.desktop-nav img {
   margin-top: 5px;
   height: 4em;
 }
 .cart-icons {
+  color: var(--tertiary-color);
+}
+.cart-icons a{
   color: var(--tertiary-color);
 }
 
@@ -110,6 +116,22 @@ img {
     position: relative;
     bottom: 10px;
     
+  }
+  .mobile-nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .mobile-ul li {
+    transition: all 0.3s ease;
+  }
+  .mobile-ul li:hover {
+    transform: scale(1.05);
+    color: var(--tertiary-color);
+  }
+  .mobile-ul li a:hover {
+    color: var(--tertiary-color);
   }
 }
 

@@ -5,6 +5,7 @@ import Home from '../pages/Home/Home'
 import Products from '../pages/Products/Products'
 import About from '../pages/About/About'
 import Contact from '../pages/Contact/Contact'
+import Cart from '../components/Cart/Cart'
 
 
 const RouterSetup = () => {
@@ -16,6 +17,7 @@ const RouterSetup = () => {
           <Route path='products' element={<Products/>}/>
           <Route path='about' element={<About/>}/>
           <Route path='contact' element={<Contact/>}/>
+          <Route path='cart' element={<Cart/>}/>
         </Route>
       </Routes>
     </Router>
