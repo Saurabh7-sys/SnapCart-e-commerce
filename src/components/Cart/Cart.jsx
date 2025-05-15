@@ -24,7 +24,7 @@ const Cart = () => {
                     return   <li key={e.id}>
                     <h4>{e.title} </h4>
                     <h5>{e.price}</h5>  
-                    <button onClick={() => removeFromCart(e.id)}>remove</button>
+                    <button onClick={() => removeFromCart(e.id)}>remove sucessfully</button>
                     </li>
                 })}
                 </ul>
