@@ -1,20 +1,28 @@
 footer {
   bottom: 0;
-  background-color: gray;
+  background-color:white;
   height: 5em;
-  border-radius: 30px 30px 0px 0px;
+  /* border-radius: 30px 30px 0px 0px;  */
   width: 100%;
   height: 13em;
 }
-
+.Allicon:hover{
+  
+    transform: scale(1.09);
+    color: var(--tertiary-color);   
+}
+.FooetrIcon:hover{
+  transform: scale(1.10);
+  color:var(--primary-color); 
+}
 
 .copyright{
   text-align: center;
   width: 100%;
-  background-color: #D0C3AA ;
+  background-color:white ;
   bottom: 0;
-  height: 3em;
-  border-radius: 30px 30px 0px 0px;
+  height: 10em;
+  /* border-radius: 30px 30px 0px 0px; */
 
 
 }
